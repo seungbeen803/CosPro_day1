@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="최댓값구하기.c">
+    <ClCompile Include="배열값 찾기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
