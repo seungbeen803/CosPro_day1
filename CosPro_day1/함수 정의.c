@@ -1,13 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
-int isTimeOfTwo(int n) {
-	return (n % 2 == 0) ? 1 : 0;
+
+// 함수의 매개변수 전달
+// 1> 값에 의한 전달 ==> 값을 복사하고 전달 ==> 매개변수 일반형
+int Add(int x, int y) {
+	return x + y;
 }
 
-int main() {
-	if (isTimeOfTwo(10) == 1)
-		printf("2의 배수 ");
-	else
-		printf("2의 배수아님");
+int main(void) {
+	int x = 5, y = 7, z;
+	z = Add(x, y);
+	printf("%d\n", z);
+	printf("%d, %d\n", x, y);
 }
