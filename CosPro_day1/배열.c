@@ -6,4 +6,9 @@ void main() {
 	printf("arr 배열의 크기 : %d \n", sizeof(arr));
 	printf("arr 배열 요소의 크기 : %d \n", sizeof(arr[0]));
 	printf("arr 배열의 길이 : %d \n", 10);
+
+	// 배열의 요소 사용
+	arr[1] = 7;
+	printf("배열 요소의 값 : %d \n", arr[1]);
+
  }
