@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="함수의 매개변수 배열.c">
+    <ClCompile Include="매개변수로 배열 전달할 경우 배열의 길이.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
