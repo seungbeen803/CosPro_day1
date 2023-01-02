@@ -11,4 +11,13 @@ void main() {
 	arr[1] = 7;
 	printf("배열 요소의 값 : %d \n", arr[1]);
 
+	// 배열 공간 벗어나는 부분 주의 : 조건식을 작성할 범위
+	int i;
+	for (i = 0; i <= 10; i++) {
+		arr[i] = i + 1;
+	}
+
+	for (i = 0; i <= 10; i++) {
+		printf("arr[%d] : %d \n", i, arr[i]);
+	}
  }
