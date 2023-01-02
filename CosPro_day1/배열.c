@@ -29,4 +29,8 @@ void main() {
 		}
 		printf("\n");
 	}
+	// 배열의 크기
+	printf("array의 크기 : %d\n", sizeof(array)); // 2차원 배열의 크기
+	printf("array[0]의 크기 : %d\n", sizeof(array[0])); // 1차원 배열의 크기
+	printf("array[2][3]의 크기 : %d\n", sizeof(array[2][3])); // 2행 3열의 크기
  }
